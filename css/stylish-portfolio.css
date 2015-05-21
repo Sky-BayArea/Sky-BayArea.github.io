@@ -27,6 +27,9 @@ body {
     padding: 0;
     font-size: 4.5em;
     font-weight: 700;
+/* VT - Start of addition */
+    color: #EC7000;
+/* VT - End of addition */
 }
 
 /* Custom Button Styles */
@@ -155,7 +158,7 @@ hr.small {
     position: relative;
     width: 100%;
     height: 100%;
-    background: url(../img/bg.jpg) no-repeat center center scroll;
+    background: url(../img/sky_bg.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -185,7 +188,7 @@ hr.small {
     width: 100%;
     height: 400px;
     color: #fff;
-    background: url(../img/callout.jpg) no-repeat center center scroll;
+    background: url(../img/sky_callout.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -237,3 +240,9 @@ hr.small {
 footer {
     padding: 100px 0;
 }
+
+/* VT - Start of addition */
+.text-vertical-center h3 {
+    color: #EC7000;
+}
+/* VT - End of addition */
